@@ -1,0 +1,115 @@
+* {
+    box-sizing: border-box;
+    font-size: 50px;
+}
+
+.fondo {
+    background-image: url(../images/primeraimagen.jpg);
+    height: 100vh;
+}
+
+.letras{
+    color: whitesmoke;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+
+}
+.pito {
+    background-color: white;
+    height: 4px;
+}
+
+.fondoimagen {
+    background: url(../images/imagen2.jpg);
+    height: 100vh;
+}
+
+.box-black {
+    background: gray;
+    border-top-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    height: 200px;
+    padding: 40px;
+}
+
+.box-black h2, .box-black p {
+    font-size: 24px;
+    display: inline-block;
+    margin: 25px;
+}
+
+.circle-black1 {
+    width: 250px;
+    height: 250px;
+    border-top: 10px solid gainsboro;
+    border-bottom: 10px solid black;
+    border-left: 10px solid black;
+    border-right: 10px solid black;
+    border-radius: 50%;
+}
+
+.circle-black2 {
+    width: 100px;
+    height: 250px;
+    border-top: 10px solid gainsboro;
+    border-bottom: 10px solid black;
+    border-left: 10px solid gainsboro;
+    border-right: 10px solid black;
+    border-radius: 50%;
+}
+
+.circle-black3 {
+    width: 100px;
+    height: 250px;
+    border-top: 10px solid gainsboro;
+    border-bottom: 10px solid gainsboro;
+    border-left: 10px solid gainsboro;
+    border-right: 10px solid black;
+    border-radius: 50%;
+}
+
+.big-separator {
+    height: 125px;
+}
+
+.info-general h1,.info-general li {
+    font-size: 40px;
+}
+
+.size-ai-1 {
+    border: 5px solid black;
+    width: 75%;
+}
+
+.size-ai-2 {
+    border: 1px solid black;
+    width: 25%;
+}
+
+.size-ps-1 {
+    border: 5px solid black;
+    width: 25%;
+}
+
+.size-ps-2 {
+    border: 1px solid black;
+    width: 75%;
+}
+
+.size-vs-1 {
+    border: 5px solid black;
+    width: 20%;
+}
+
+.size-vs-2 {
+    border: 1px solid black;
+    width: 80%;
+}
+
+.little-separator {
+    height: 50px;
+}
